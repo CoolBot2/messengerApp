@@ -1,0 +1,31 @@
+.chatlist{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.pfp{
+  border: 4px solid #cddc39;
+  padding: 2px;
+  border-radius: 50%;
+  border-top-color: #ff5722;
+  border-left-color: #ff5722;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.Profile{
+
+
+transform: translate(0, -170%);
+  
+}
+.btn4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+}

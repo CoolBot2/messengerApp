@@ -1,0 +1,81 @@
+.textZone{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 96%;
+  height: 300PX;
+  background-image: url("https://cdn.dribbble.com/users/69156/screenshots/2398680/icq_pttrn3.png");
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10PX;
+  margin-left: 20PX;
+  overflow: auto!important;
+  color: black;
+  text-align: end;
+
+}
+.message{
+  display: flex;
+  width:fit-content;
+  height: 15px;
+  align-content:flex-end;
+  align-items: center;
+  
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10PX;
+  margin-left: 20PX;
+  overflow: none;
+  color: black;
+  text-align: end;
+}
+.input{
+  height: 40px;
+  width: 1360px;
+  overflow: auto;
+  font-weight: 400 ;
+  font-size: large;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+input:focus{
+  outline: none;
+}
+.inputZone{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: -10px;
+}
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  
+}
+.sendBtn{
+  background-image: url("https://cdn-icons-png.flaticon.com/128/876/876777.png");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  color: #696666;
+  margin-left: 40px;
+ height: 40px;
+ width: 60px;
+  border-radius: 10px;
+  border: 2px solid #07cc38b4;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-position: center;
+}
+.sendBtn:hover {
+    color: #fff;
+    background-color: #07cc38b4;
+    border-color: #07cc38b4;
+    
+
+}
+
